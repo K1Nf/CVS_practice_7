@@ -58,8 +58,8 @@ namespace WpfApp4
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            Uri url = new Uri("https://www.google.ru/");
-            WB1.Navigate(url);
+            //Uri url = new Uri("https://www.google.ru/");
+            //WB1.Navigate(url);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
