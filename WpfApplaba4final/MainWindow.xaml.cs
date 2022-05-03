@@ -64,21 +64,21 @@ namespace WpfApp4
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("https://www.sports.ru/");
+            //driver = new ChromeDriver();
+            //driver.Navigate().GoToUrl("https://www.sports.ru/");
             //driver.Manage().Window.Maximize();
 
-            IWebElement elem = driver.FindElement(By.XPath("/html/body/nav/div[2]/div/div/div/div/a"));           
-            elem.Click();
+            //IWebElement elem = driver.FindElement(By.XPath("/html/body/nav/div[2]/div/div/div/div/a"));           
+            //elem.Click();
 
-            elem = driver.FindElement(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/form/div[2]/label/input"));
-            elem.SendKeys(loginbox.Text);
+            //elem = driver.FindElement(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/form/div[2]/label/input"));
+            //elem.SendKeys(loginbox.Text);
 
-            elem = driver.FindElement(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/form/div[3]/label/input"));
-            elem.SendKeys(Passbox.Password);
+            //elem = driver.FindElement(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/form/div[3]/label/input"));
+            //elem.SendKeys(Passbox.Password);
 
-            elem = driver.FindElement(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/form/div[5]/button"));
-            elem.Click();
+            //elem = driver.FindElement(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/form/div[5]/button"));
+            //elem.Click();
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
