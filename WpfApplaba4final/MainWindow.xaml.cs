@@ -50,10 +50,10 @@ namespace WpfApp4
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            WebClient wc = new WebClient();
-            string url = "https://www.sports.ru/";
-            string path = "C:\\Users\\User\\Desktop\\file.txt";
-            wc.DownloadFile(url, path);
+            //WebClient wc = new WebClient();
+            //string url = "https://www.sports.ru/";
+            //string path = "C:\\Users\\User\\Desktop\\file.txt";
+            //wc.DownloadFile(url, path);
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
